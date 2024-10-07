@@ -1,0 +1,9 @@
+#snippet-container {
+    background-image: linear-gradient(
+  135deg,
+  #ffbb00 0%,
+  hsl(38deg 98% 79%) 51%,
+  hsl(43deg 91% 91%) 100%
+);
+color: #fdf1d3 100%;
+}

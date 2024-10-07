@@ -1,0 +1,30 @@
+/* Mistake: Using absolute on the item when container doesn't have relative */
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.item {
+  /* Position absolutely inside container */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Mistake 2: Overusing the !important */
+a {
+  color: red !important;
+}
+
+article a {
+  color: blue !important;
+}
+
+#about article a {
+  color: green !important;
+}
+
+/* Mistake 3: Overusing selectors */
+body div.post ul li a {
+    color: blue;
+}
